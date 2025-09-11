@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <center>
+      <img
+        src="https://static.vecteezy.com/system/resources/thumbnails/046/551/394/small_2x/basic-rgbfuturistic-geometric-modern-blue-professional-background-free-vector.jpg"
+        alt=""
+        class="image"
+      />
+      <h1>Shape Generator</h1>
+      <div class="shapes">
+        <label><input type="radio" name="shape" value="square" /> Square</label>
+        <label><input type="radio" name="shape" value="circle" /> Circle</label>
+        <label
+          ><input type="radio" name="shape" value="rectangle" />Rectangle</label
+        >
+      </div>
+      <div class="button">
+        <input type="number" placeholder="Enter your number" id="no-of-shape" />
+        <button id="submit" onclick="shapegeneration()">Start</button>
+      </div>
+      <div id="shape-generation"></div>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    position: relative;
+    top: 100px;
+}
+.image{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    justify-items: center;
+    align-items: center;
+}
+.shapes {
+    position: relative;
+    top: 120px;
+    display: flex;               
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+.button{
+    position: relative;
+    top:150px;
+}
+#no-of-shape{
+    box-shadow: 4px 4px 4px gray;
+    width: 250px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#submit{
+    width: 85px;
+    box-shadow: 4px 4px 4px gray;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#shape-generation{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}
+.circle{
+    
+    position: relative;
+    top: 150px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgb(223, 89, 160);
+}
+.square{
+    position: relative;
+    top: 155px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(198, 155, 237);
+}
+.rectangle{
+    position: relative;
+    top: 155px;
+    width: 70px;
+    height: 50px;
+    background-color: rgb(212, 161, 30);
+}
